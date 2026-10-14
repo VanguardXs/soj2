@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="400" viewBox="0 0 360 400" role="img" aria-labelledby="title description">
+  <title id="title">Ақпараттық қауіпсіздік иллюстрациясы</title>
+  <desc id="description">Оқиғаларды бақылау экранының алдында тексеру белгісі бар қорғаныс қалқаны.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#dbe9b7"/>
+      <stop offset="1" stop-color="#b6ce92"/>
+    </linearGradient>
+    <linearGradient id="shield" x2="1" y2="1">
+      <stop stop-color="#e9f3c4"/>
+      <stop offset="1" stop-color="#a9cc80"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="11" stdDeviation="12" flood-color="#1b3a31" flood-opacity=".23"/>
+    </filter>
+  </defs>
+
+  <rect width="360" height="400" fill="url(#background)"/>
+  <circle cx="326" cy="49" r="91" fill="#eef3d5" opacity=".75"/>
+  <circle cx="32" cy="359" r="87" fill="#a5c080" opacity=".55"/>
+  <path d="M0 344c66-34 109-13 166 5 73 23 116-35 194-18v69H0Z" fill="#9bb97c" opacity=".7"/>
+
+  <!-- Бақылау панелі: Blue Team жүйедегі оқиғаларды қадағалайды. -->
+  <rect x="34" y="75" width="292" height="244" rx="21" fill="#1d3731" filter="url(#shadow)"/>
+  <path d="M55 75h250c12 0 21 9 21 21v24H34V96c0-12 9-21 21-21Z" fill="#294a40"/>
+  <circle cx="57" cy="98" r="5" fill="#e7b080"/>
+  <circle cx="74" cy="98" r="5" fill="#b9d67b"/>
+  <circle cx="91" cy="98" r="5" fill="#84c2ba"/>
+  <rect x="233" y="92" width="67" height="11" rx="5.5" fill="#648d79" opacity=".8"/>
+
+  <rect x="54" y="142" width="108" height="6" rx="3" fill="#709583"/>
+  <rect x="54" y="160" width="67" height="6" rx="3" fill="#5e8c83"/>
+  <rect x="54" y="181" width="83" height="6" rx="3" fill="#709583"/>
+  <rect x="54" y="210" width="97" height="75" rx="9" fill="#29493f"/>
+  <path d="m64 261 21-16 18 7 18-24 20 8" fill="none" stroke="#93d1ba" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="85" cy="245" r="4" fill="#d9ed98"/>
+  <circle cx="121" cy="228" r="4" fill="#d9ed98"/>
+
+  <rect x="242" y="262" width="62" height="7" rx="3.5" fill="#7aa997"/>
+  <rect x="259" y="279" width="45" height="7" rx="3.5" fill="#547e71"/>
+  <circle cx="275" cy="157" r="5" fill="#8cbcb0"/>
+  <circle cx="297" cy="174" r="5" fill="#c8b5df"/>
+  <circle cx="283" cy="198" r="5" fill="#8cbcb0"/>
+  <path d="m275 157 22 17-14 24" fill="none" stroke="#6f9b8f" stroke-width="2.5"/>
+
+  <!-- Қалқан және тексеру белгісі. -->
+  <path d="M181 135 245 159v64c0 52-24 88-64 112-40-24-64-60-64-112v-64Z" fill="url(#shield)" stroke="#f7f9e8" stroke-width="7" stroke-linejoin="round" filter="url(#shadow)"/>
+  <path d="M181 159 225 176v46c0 35-15 62-44 82-29-20-44-47-44-82v-46Z" fill="#315c4c"/>
+  <path d="m157 228 17 17 33-38" fill="none" stroke="#d4e994" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="48" cy="50" r="5" fill="#4c7562"/>
+  <circle cx="311" cy="344" r="6" fill="#6f9e8c"/>
+  <path d="M285 359h24m-12-12v24" stroke="#f0f5d9" stroke-width="3" stroke-linecap="round"/>
+</svg>

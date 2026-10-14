@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS басымдығы — тәжірибе</title>
+  <link rel="stylesheet" href="priority-external.css">
+  <style>
+    #priority-text { color: #6e832c; }
+    body { max-width: 700px; margin: 60px auto; padding: 0 20px; font-family: Arial, sans-serif; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <h1>Үш әдістің басымдығы</h1>
+  <p id="priority-text" style="color: #b94d40;">Бұл жол қызыл түспен көрінеді.</p>
+  <p>Көк — сыртқы CSS, жасыл — ішкі CSS, қызыл — inline style. Үш ереже де бір элементтің color қасиетіне әсер етеді. Кәдімгі ережелер арасында inline style жеңеді.</p>
+  <p>DevTools → Inspector → осы жолды таңда → Rules ішінен жеңген және сызылған color ережелерін қара.</p>
+</body>
+</html>
